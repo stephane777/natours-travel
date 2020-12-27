@@ -1,0 +1,32 @@
+/*
+Vscode tip: Alt + click will add a new cursor at the fucused clicked
+Vscode tip: select a word and then Ctrl + D will find and select the same occurence
+*/
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+@import "components/button";
+@import "layout/header";
+@import "layout/grid";
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+html {
+	// This is what define 1rem is!
+	font-size: 62.5%;
+}
+body {
+	box-sizing: border-box;
+}
