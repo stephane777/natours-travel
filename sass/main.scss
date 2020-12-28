@@ -11,22 +11,9 @@ Vscode tip: select a word and then Ctrl + D will find and select the same occure
 @import "base/typography";
 @import "base/utilities";
 
-@import "pages/home";
 @import "components/button";
-@import "layout/header";
+@import "components/composition";
 @import "layout/grid";
+@import "layout/header";
 
-*,
-*::after,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
-}
-html {
-	// This is what define 1rem is!
-	font-size: 62.5%;
-}
-body {
-	box-sizing: border-box;
-}
+@import "pages/home";
