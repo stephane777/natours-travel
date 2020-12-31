@@ -44,6 +44,7 @@ body {
 		$color-primary-light,
 		$color-primary-dark
 	);
+	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
 	letter-spacing: 2px;
@@ -52,7 +53,7 @@ body {
 		transform: skewY(2deg) skew(15deg) scale(1.1);
 		text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
 	}
-	margin-bottom: 10rem;
+	margin-bottom: 4rem;
 }
 
 .heading-tertiary {
